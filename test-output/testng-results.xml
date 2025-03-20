@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-18T11:43:57 UTC" name="Default suite" finished-at="2025-03-18T11:44:15 UTC" duration-ms="17262">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.FailedTestNGRunner@5fb759d6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-18T11:43:57 UTC" name="Default test" finished-at="2025-03-18T11:44:15 UTC" duration-ms="17262">
+      <class name="CucumberOptions.FailedTestNGRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.FailedTestNGRunner@5fb759d6]" started-at="2025-03-18T11:43:57 UTC" name="setUpClass" finished-at="2025-03-18T11:43:59 UTC" duration-ms="1276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d0ec63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.FailedTestNGRunner@5fb759d6]" started-at="2025-03-18T11:43:59 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T11:44:13 UTC" duration-ms="14630" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience of product in product page and offers page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search and place the order for Products"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at StepDefination.CheckoutPageSD.User_proceed_to_checkout_and_verify_the_name_in_page(CheckoutPageSD.java:33)
+at ✽.User proceed to the checkout page and verify the Beet in the page(file:///C:/Users/Nayan/Documents/Eclipse-Workspace/CucumberActualFramework/src/test/java/feature/Checkout.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.FailedTestNGRunner@5fb759d6]" started-at="2025-03-18T11:43:59 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T11:44:15 UTC" duration-ms="15716" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience of product in product page and offers page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search and place the order for Products"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at StepDefination.CheckoutPageSD.User_proceed_to_checkout_and_verify_the_name_in_page(CheckoutPageSD.java:33)
+at ✽.User proceed to the checkout page and verify the Tom in the page(file:///C:/Users/Nayan/Documents/Eclipse-Workspace/CucumberActualFramework/src/test/java/feature/Checkout.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.FailedTestNGRunner@5fb759d6]" started-at="2025-03-18T11:44:15 UTC" name="tearDownClass" finished-at="2025-03-18T11:44:15 UTC" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOptions.FailedTestNGRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
